@@ -1,2 +1,2 @@
 # The-C-Programming-by-K-R
-Getting proficient with C "The C Programming" by K&amp;R
+Exploring the C language more in depth with C "The C Programming" by K&amp;R
