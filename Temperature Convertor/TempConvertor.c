@@ -6,6 +6,7 @@
 
 #include <stdio.h>	// Standard library for c
 
+#define LOWER 0
 #define UPPER 300
 #define STEP 20
 ////////////////////////////////////////////////////
@@ -25,11 +26,11 @@ int main()
 	
 	int celsius;
 	
-	for (int fahr = 0; fahr <= UPPER; fahr = fahr + STEP)
+	for (int fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP)	// Iterate fahr from LOWER to UPPER limit
 	{
 		celsius = 5 * (fahr - 32) / 9;	// Math formula for converting F to C
 		printf("%d\t%d\n", fahr, celsius);	// Output value in Fahrenheit and Celsius
-	}
+	}	// End for
 	
 	return 0; // End program gracefully
 }
