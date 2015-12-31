@@ -1,5 +1,5 @@
 /* "Hello, Wolrd!.c" - 
-*	Author:  Adrian Chiriac, 31 December 2015
+*  Author:  Adrian Chiriac, 31 December 2015
 */
 
 #include <stdio.h>	// Standard library for c
