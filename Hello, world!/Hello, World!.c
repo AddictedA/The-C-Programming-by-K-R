@@ -1,4 +1,4 @@
-/* "Hello, Wolrd!.c" - 
+/* "Hello, Wolrd!.c" - Say hello to my little friend!
 *  Author:  Adrian Chiriac, 31 December 2015
 */
 
