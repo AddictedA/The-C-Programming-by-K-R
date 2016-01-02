@@ -1,7 +1,7 @@
 /* "TempConvertor.c" - Converts Fahrenheit temperature into Celsius
 *  for Fahrenheit temperatures between 0 and 300 in increments of 20.
 *
-*  Author:  Adrian Chiriac, 1 January 2015
+*  Author:  Adrian Chiriac, 1 January 2016
 */
 
 #include <stdio.h>	// Standard library for c
