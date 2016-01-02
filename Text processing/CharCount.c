@@ -15,7 +15,7 @@
 ////////////////////////////////////////////////////
 int main(){
 
-   long nc = 0;   // Initialize character counter
+   // long nc = 0;   // Initialize character counter
 
    // while( getchar() != EOF){ // Receive input until EOF (CTRL + Z) received
       // ++nc;
@@ -23,9 +23,12 @@ int main(){
 //    
    // printf("%ld\n", nc); // Print number of characters (/n is included in count)
 //    
+
+   double nc;
+
    for(nc = 0; getchar() != EOF; ++nc);
-   
-   printf("%ld\n", nc); // Print number of characters (/n is included in count)
+
+   printf("%.0f\n", nc); // Print number of characters (/n is included in count)
 
    
    return 0; // End program gracefully
