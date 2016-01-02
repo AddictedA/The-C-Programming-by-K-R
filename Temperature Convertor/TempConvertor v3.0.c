@@ -4,7 +4,7 @@
 *
 *  Exercises 1-3 & 1-4 from K&R book.
 *
-*  Author:  Adrian Chiriac, 31 December 2015
+*  Author:  Adrian Chiriac, 1 January 2016
 */
 
 #include <stdio.h>	// Standard library for c
