@@ -24,13 +24,13 @@ int main()
 //		fahr = fahr + step;	// increment with step size 
 //	}	// End while
 	
-	int celsius;
+   int celsius;
 	
-	for (int fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP)	// Iterate fahr from LOWER to UPPER limit
-	{
-		celsius = 5 * (fahr - 32) / 9;	// Math formula for converting F to C
-		printf("%d\t%d\n", fahr, celsius);	// Output value in Fahrenheit and Celsius
-	}	// End for
+   for (int fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP)	// Iterate fahr from LOWER to UPPER limit
+   {
+      celsius = 5 * (fahr - 32) / 9;	// Math formula for converting F to C
+      printf("%d\t%d\n", fahr, celsius);	// Output value in Fahrenheit and Celsius
+   }	// End for
 	
-	return 0; // End program gracefully
+   return 0; // End program gracefully
 }

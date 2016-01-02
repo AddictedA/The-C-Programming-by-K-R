@@ -10,5 +10,5 @@
 void main()
 {
 	// Print function from standard library
-	printf("Hello, World!\n"); // Output string to screen. 
+   printf("Hello, World!\n"); // Output string to screen. 
 }
