@@ -5,6 +5,7 @@
 *  Author:  Adrian Chiriac, 2 January 2016
 *
 *  Version: 1.0 - Basic functionality 
+*           1.1 - Basic functionality using "for" loop
 */
 
 #include <stdio.h>	// Standard C library 
@@ -16,11 +17,16 @@ int main(){
 
    long nc = 0;   // Initialize character counter
 
-   while ( getchar() != EOF){ // Receive input until EOF (CTRL + Z) received
-      ++nc;
-   }
+   // while( getchar() != EOF){ // Receive input until EOF (CTRL + Z) received
+      // ++nc;
+   // }
+//    
+   // printf("%ld\n", nc); // Print number of characters (/n is included in count)
+//    
+   for(nc = 0; getchar() != EOF; ++nc);
    
    printf("%ld\n", nc); // Print number of characters (/n is included in count)
+
    
    return 0; // End program gracefully
 }
